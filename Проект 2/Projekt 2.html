@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Projekt 2.css">
+</head>
+<body>
+    
+<main>
+    <h1 id="title">Опитування</h1>
+  
+    <form id="survey-form">
+      <div class="container"><label id="name-label">Імя:<input placeholder="Введіть Імя" id="name" type="text" required/></label></div>
+      <div class="container"><label id="email-label">Email:<input placeholder="Введіть електронний адрес" id="email" type="email" required/></label></div>
+      <div class="container"><label id="number-label">Вік:<input placeholder="Вік" id="number" type="number"  min="14" max="60" required/></label></div>
+      <div class="container">
+        <select id="dropdown">
+          <option value="">Студент Університету</option>
+          <option value="">Учень Школи</option>
+          <option value="">Викладач</option>
+        </select>
+      </div>
+      <p id="description">Як ви ставитися до карантину?</p>
+      <div class="container">
+        <label>Добре.<input name="rando" value="1" type="radio"></label>
+          <label  value="2">Нейтрально.<input name="rando" value="2" type="radio"></label>
+        <label value="3">Негативно.<input name="rando" value="3" type="radio"></label>
+        </div>
+        <p id="description">Яке навчання вам подобається?</p>
+        <div class="container">
+          <label>Онлайн.<input name="rando" value="1" type="radio"></label>
+            <label  value="2">Офлайн.<input name="rando" value="2" type="radio"></label>
+          <label value="3">50/50.<input name="rando" value="3" type="radio"></label>
+          </div>
+          <p id="description">Що треба змінити?</p>
+        <div class="container">
+        <label  name="Check" >Розклад.<input value="Box1" type="checkbox"></label>
+          <label  name="Check">Тривалість пари, уроку.<input value="Box2" type="checkbox"></label>
+        </div>
+        <p>Ваші варіанти</p>
+      <div class="container">
+       <textarea name="" cols="60" rows="7"></textarea>
+        </div>
+       <div class="container">
+         <button id="submit">Відправити</button>
+         </div>
+    </form>
+    
+    </main>
+</body>
+
+</html>

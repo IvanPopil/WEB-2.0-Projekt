@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    color: rgba(39, 19, 14, 0.808);
+    background-image:url('https://www.zastavki.com/pictures/1920x1080/2014/Backgrounds_Blue_background_on_your_desktop_082106_23.jpg') ;
+    background-attachment:scroll;
+    background-size:1222px 11004px;
+    text-shadow:rgba(19, 1, 1, 0.568) 1px 1px 2px ;
+    font-size: 1.9rem;
+    line-height: 2;
+    
+    
+  }
+      p{color: rgba(207, 112, 67, 0.911);}
+
+h1{
+  color: rgba(255, 255, 255, 0.993)
+   ;
+}
+li{color:wheat;
+  text-shadow:rgb(12, 12, 12) 1px 1px 2px}
+a{
+  color:rgb(153, 51, 201);
+  text-shadow:rgb(184, 127, 127) 1px 1px 2px ;
+  }
+  
+
+

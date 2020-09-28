@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    color: rgba(228, 87, 52);
+    background-image:url('https://images.wallpaperscraft.ru/image/les_tuman_olen_129931_1920x1080.jpg') ;
+    text-shadow:rgb(204, 48, 48) 1px 1px 2px ;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+ 
+  img{
+    max-width: 100%;
+        margin: auto;
+        display: block;
+      }
+   
+      p{color: rgba(255, 255, 255, 0.911);}
+
+h1{
+  color:wheat ;
+}
+li{color:wheat;
+  text-shadow:rgb(12, 12, 12) 1px 1px 2px}
+a{
+  color:rgb(153, 51, 201);
+  text-shadow:rgb(12, 12, 12) 1px 1px 2px ;
+  
+}

@@ -1,0 +1,7 @@
+.gradient {
+  background: linear-gradient(120deg,#79a366,#abc3d2)!important;
+}
+
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-white.portfolio-navbar.gradient {
+}
+
